@@ -1,0 +1,72 @@
+# =============================================================
+# Unity — pastas geradas automaticamente (NUNCA versionar)
+# =============================================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+# Temporários do build Android/Gradle gerados pelo Unity 6
+/.utmp/
+
+# Pacotes de asset exportados manualmente
+*.unitypackage
+!/Docs/**/*.unitypackage
+
+# Cache do Burst / arquivos de crash
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+crashlytics-build.properties
+sysinfo.txt
+*.stackdump
+
+# Arquivos de build Android / Quest
+*.apk
+*.aab
+*.obb
+*.symbols.zip
+
+# =============================================================
+# IDEs (Visual Studio, Rider, VS Code) — o Unity regenera
+# =============================================================
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# =============================================================
+# Sistema operacional
+# =============================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# =============================================================
+# Ferramentas locais
+# =============================================================
+# Configurações pessoais do Claude Code (as regras do projeto ficam em CLAUDE.md)
+.claude/settings.local.json
